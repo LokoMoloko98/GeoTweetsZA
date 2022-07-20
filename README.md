@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 To run the app enter this command in the command line editor:
 ```bash
-python3 GeoTweetsZA
+python3 GeoTweetsZA.py
 ```
 
 or run it in your favourite IDE
