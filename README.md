@@ -18,7 +18,11 @@ To run the app enter this command in the command line editor:
 python3 GeoTweetsZA.py
 ```
 
-or run it in your favourite IDE
+or run it in your favourite IDE.
+
+In the terminal window, you will be asked to enter a word to search on Twitter and geolocate.
+Press ENTER after typing the word and all the tweets that contain that word will appear on the terminal screen.
+After a few seconds your default web browser will open and a web map visualizing the locations of the user provided locations of all the tweets will appear. 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
