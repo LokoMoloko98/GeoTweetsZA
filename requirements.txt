@@ -1,0 +1,8 @@
+tweepy
+configparser
+pandas
+time
+requests
+urllib
+json
+folium
