@@ -1,9 +1,9 @@
 # GeoTweetsZA
-The goal is to geolocate and visualize where trending topics on twitter are mostly coming from. The Tweepy package and GoogleMaps API were used to achive this outcome. 
+The goal if this python app to geolocate and visualize on a web map where Tweets with particular words/phrases are being tweeted from. The Tweepy package and GoogleMaps API were used to achive this outcome.
 
 ## Running the GeoTweetsZA locally
 
-###GeoTweetsZA requires that python 3 is installed on the machine it runs on.
+GeoTweetsZA requires that python 3 be installed on the machine it runs on.
 
 To utilize GeoTweetsZA on your machine, clone this repository or download the Zip file and unzip the contents in a folder on your machine.
 
