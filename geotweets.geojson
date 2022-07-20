@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Tweet": "@DjSoulAndy Yah ushaye Amstel iwona beer ekthiwa unamagwebu\ud83d\ude02\ud83d\ude02",
+        "Location": "Shelly Beach, South Africa",
+        "LAT": -30.80435629999999,
+        "LON": 30.4115883
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4115883,
+          -30.80435629999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Tweet": "Le bra yaka yao vroustana Amstel Lager https://t.co/a8JvWaoa1s",
+        "Location": "Soweto, South Africa",
+        "LAT": -26.2485377,
+        "LON": 27.8540323
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8540323,
+          -26.2485377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Tweet": "@MarksNkuna @NattyAdonis I had to back off, I was becoming a liquor tank, I was drinking beer like it was water, Ca\u2026 https://t.co/jUsnDm2lNY",
+        "Location": "South Africa",
+        "LAT": -30.559482,
+        "LON": 22.937506
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Tweet": "@Tshepo_Tha_Deep Amstel wang polaya\ud83d\ude02\ud83d\ude02\ud83d\ude02 always up to no good. Le sepedi sateng makes it funnier\ud83e\udd23",
+        "Location": "Pitori",
+        "LAT": 21.4756057,
+        "LON": 78.60688840000002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.60688840000002,
+          21.4756057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Tweet": "@_Mashudu_M @CozminoNtsomi Amstel",
+        "Location": "Johnnesburg, South Africa",
+        "LAT": -26.2041028,
+        "LON": 28.0473051
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Tweet": "@Humphrey_M_D @danielmarven Amstel from Mzansi got magic ko YouTube",
+        "Location": "Johannesburg",
+        "LAT": -26.2041028,
+        "LON": 28.0473051
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      }
+    }
+  ]
+}
