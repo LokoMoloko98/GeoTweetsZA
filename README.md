@@ -1,20 +1,24 @@
 # GeoTweets
 The goal is to geolocate and visualize where trending topics on twitter are mostly coming from. The Tweepy package and GoogleMaps API were used to achive this outcome. 
 
-## Running the detector programme locally
+## Running the GeoTweetsZA locally
 
-To run the roof predictions notebook, enter this command in your machine terminal interpreter
+###GeoTweetsZA requires that python 3 is installed on the machine it runs on.
+
+To utilize GeoTweetsZA on your machine, clone this repository or download the Zip file and unzip the contents in a folder on your machine.
+
+Some libraries have to be installed first, to ensure that they are installed on you machine. Open the command line terminal in the directory where the repo has been cloned or unzipped and enter this command:
 
 ```bash
-jupyter notebook Roofs_Predictions.ipynb
+pip install -r requirements.txt
 ```
 
-or
-
-To run the road networks predictions notebook, enter this command in your machine terminal interpreter
+To run the app enter this command in the command line editor:
 ```bash
-jupyter notebook Road_Predictions.ipynb
+python3 GeoTweetsZA.py
 ```
+
+or run it in your favourite IDE
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
