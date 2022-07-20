@@ -1,4 +1,4 @@
-# GeoTweets
+# GeoTweetsZA
 The goal is to geolocate and visualize where trending topics on twitter are mostly coming from. The Tweepy package and GoogleMaps API were used to achive this outcome. 
 
 ## Running the GeoTweetsZA locally
