@@ -3,11 +3,11 @@ The goal if this python app to geolocate and visualize on a web map where Tweets
 
 ## Running GeoTweetsZA locally
 
-GeoTweetsZA requires that python 3 be installed on the machine it runs on.
+GeoTweetsZA requires that python 3 be installed on the machine it wiil run on.
 
 To utilize GeoTweetsZA on your machine, clone this repository or download the Zip file and unzip the contents in a folder on your machine.
 
-Some libraries have to be installed first, to ensure that they are installed on you machine. Open the command line terminal in the directory where the repo has been cloned or unzipped and enter this command:
+Some libraries have to be installed first, to ensure that they are installed on you machine, open the command line terminal in the directory where the repo has been cloned or unzipped and enter this command:
 
 ```bash
 pip install -r requirements.txt
