@@ -1,7 +1,7 @@
 # GeoTweetsZA
 The goal if this python app to geolocate and visualize on a web map where Tweets with particular words/phrases are being tweeted from withing the geographical bounds of South Africa. The Tweepy package and GoogleMaps API were used to achive this outcome.
 
-## Running the GeoTweetsZA locally
+## Running GeoTweetsZA locally
 
 GeoTweetsZA requires that python 3 be installed on the machine it runs on.
 
