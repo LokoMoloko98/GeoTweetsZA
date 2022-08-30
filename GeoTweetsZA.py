@@ -45,7 +45,7 @@ data = []
 for tweet in tweets:
     data.append([tweet.text, tweet.user.location])
     df = pd.DataFrame(data, columns=columns)
-    print(df)
+    #print(df)
     df.to_csv('tweets.csv')
     df["LAT"] = None
     df["LON"] = None
@@ -87,8 +87,8 @@ print(df)
 df.to_csv('tweets.csv')
 
 df_geo = df.dropna(subset=["LAT","LON"], axis=0, inplace=False)
-print("We have {} geotagged rows".format(len(df_geo)))
-print(df_geo.tail())
+print("There are {} geotagged rows".format(len(df_geo)))
+#print(df_geo.tail())
 
 def df_to_geojson(df, properties, lat='LAT', lon='LON'):
     # create a new python dict to contain our geojson data, using geojson format
