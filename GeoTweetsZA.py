@@ -17,12 +17,6 @@ api_key_secret = config['twitter']['api_key_secret']
 access_token = config['twitter']['access_token']
 access_token_secret  = config['twitter']['access_token_secret']
 
-#place credentials in variables
-# api_key = "TnNYRUSaBujPtmgV7Raqv78jg"
-# api_key_secret = "Bhl5Rlq8tifgwOYUKdnAesoGpLOHV9G7DtTrxWCrRzq9pqjMWLE"
-# access_token = "1499667878609571840-yjV5JgZRRLC1pk8iUNiZGNSZJNseHu"
-# access_token_secret  = "6SE9lWjGg2lJNj8r6NK1HcvPOZxqv5oMFC7QLPC6n6IBh"
-
 #authentication
 auth = tweepy.OAuthHandler(api_key, api_key_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -52,7 +46,7 @@ for tweet in tweets:
     
 def extract_lat_lng(address_or_postalcode, components, data_type = 'json'):
     endpoint = f"https://maps.googleapis.com/maps/api/geocode/{data_type}"
-    params = {"address": address_or_postalcode, "key": "AIzaSyDn1FXv39nfyZ2mGXtj404nuvAzHQmW2Uk", 'components':components}
+    params = {"address": address_or_postalcode, "key": "", 'components':components}
     url_params = urlencode(params)
     url = f"{endpoint}?{url_params}"
     r = requests.get(url)
